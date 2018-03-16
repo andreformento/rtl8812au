@@ -7,6 +7,11 @@ make
 sudo make install
 ```
 
+# Preffered dkms install
+```
+make -f Makefile.dkms install
+```
+
 Linux kernel driver for rtl8812au/rtl8821au/rtl8811au USB WiFi chipsets.
 
 Experimental build of driver-5.1.5 branch from uminokoe/rtl8812AU, with some
